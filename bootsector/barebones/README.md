@@ -3,7 +3,7 @@
 # Theory
 Boot sector is needed because BIOS doesn't know how to load the OS. The boot sector must be placed in a known/ standard location.
 
-To make disk is bootable,the BIOS check the bytes **511** and **512** of the alleged boot sector are ==0xAA55==.
+To make disk is bootable,the BIOS check the bytes **511** and **512** of the alleged boot sector are `0xAA55`.
 
 Example of the simplest boot sector:
 ``` 
