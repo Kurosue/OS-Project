@@ -1,4 +1,4 @@
-#include "gdt.h"
+#include "header/cpu/gdt.h"
 
 // Defining the Global Descriptor Table (GDT) in memory
 struct GlobalDescriptorTable gdt;
