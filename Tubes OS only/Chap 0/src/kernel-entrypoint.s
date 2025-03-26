@@ -43,6 +43,7 @@ load_gdt:
     ; Far jump to update cs register
     ; Warning: Invalid GDT will raise exception in following instruction below
     jmp 0x8:flush_cs
+    
 flush_cs:
     mov ax, 10h ; Update all segment register
     mov ss, ax
